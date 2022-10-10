@@ -86,3 +86,38 @@ operador ->
 ---
 
 dan abramob - gran figura del mundo de la programacion- hizo el modelo casi filosofico que tenemos en el pdf de clase
+
+usaremos otra herramienta, aparte de ESlint, para ayudarnos a corregir nuestro codigo
+
+SONARQUBE - tendriamos que instalar cliente y servidor y es algo engorroso por lo que usaremos
+SONARCLOUD - igual pero sin tener que instalar nada --> usaremos este
+
+---
+
+code smell -> codigo "apestoso", el codigo que no es limpio, por ejemplo si repites mucho varias lineas de codigo, deberian estar en una funcion.
+
+las funciones pueden ser asignativas o declarativas: ejemplo
+
+export function bar () {
+const x = 22 \* 2;
+
+    if (x > 12) {
+        console.log(x);
+    }
+
+};
+declarativa
+
+---
+
+export const foo = () => {
+const x = 22 \* 2;
+
+    if (x > 12) {
+        console.log(x);
+    }
+
+};
+asignativa
+
+---
