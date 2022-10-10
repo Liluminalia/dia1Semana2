@@ -44,3 +44,6 @@ si se borrara package y node modules, solamente tendriamos que poner
 sirve por ejemplo si cogemos los archivos iniciales de otro proyecto que nos venga bien
 
 
+una buena frase para empezar el readme seria: npm i  - en cmd - para instalar lo necesario de este proyecto
+
+una vez creado todo esto es el mejor momento para hacer el initial commit y crear la rama feature/loquesea
