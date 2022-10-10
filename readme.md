@@ -121,3 +121,5 @@ SONARCLOUD - igual pero sin tener que instalar nada --> usaremos este
 ---
 
 code smell -> codigo "apestoso", el codigo que no es limpio, por ejemplo si repites mucho varias lineas de codigo, deberian estar en una funcion. es realmente util a la hora de escribir codigo limpio
+
+en sonal deberiamos mirarlo todos los dias y ver los 4 a cero, bugs code smells vulnerabilities y segurity hotsposts
